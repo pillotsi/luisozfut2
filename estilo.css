@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: rgb(0, 251, 255);
+}
+.principal h1{
+    color: #99cc00;
+}
+
+.luisitofuente{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font: size 30px;
+}
+
+.luisitofuente2{
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.header{
+    background: rgb(0, 255, 68);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.header li{height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+
+    width: 100px;
+}
+
+.menu{
+    height: inherit;
+}
+
+
+.principal {
+    background: rgb(119, 118, 118); 
+    background-image: url("img/imagen.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.principal img{
+    width: 300px;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+}
+
+.img3{
+    width: 50%;
+}
+.second{
+    background: red;
+    text-align: right;
+    padding: 50px 100px;
+margin: 50px 100px;
+}
+.second img{
+    width: 100%;
+}
+.therd{
+    background: pink;
+    text-align: left;
+    padding: 100px 50px 25px 200px;
+    margin: 100px 50px 25px 200px;
+}
